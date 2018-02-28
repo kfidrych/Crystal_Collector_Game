@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+    <title>Crystal Collectors!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div id="title">
+                    <h1>Crystal Collectors!</h1>
+                </div>
+                <div id="instructions">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to your
+                        total score.</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total score
+                        goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+                <div id="scores">
+                    <div id="gameNumberBox">
+                        <h1 id="gameNumber">0</h1>
+                    </div>
+                    <div id="scoreBoard">
+                        <h3 id="wins">Wins: 0</h3>
+                        <h3 id="losses">Losses: 0</h3>
+                    </div>
+                </div>
+                <br>
+                <div id="gemBlock">
+                    <div class="gems" id="gem1" value="">
+                        <img src="assets/images/bluegem.png" alt="blueGem">
+                        <div id="gem1Value"></div>
+                    </div>
+                    <div class="gems" id="gem2" value="">
+                        <img src="assets/images/greengem.png" alt="greenGem">
+                        <div id="gem2Value"></div>
+                    </div>
+                    <div class="gems" id="gem3" value="">
+                        <img src="assets/images/purplegem.png" alt="purpleGem">
+                        <div id="gem3Value"></div>
+                    </div>
+                    <div class="gems" id="gem4" value="">
+                        <img src="assets/images/redgem.png" alt="redGem">
+                        <div id="gem4Value"></div>
+                    </div>
+                </div>
+                <div id="userScore">
+                    <h3>Your total score is: </h3>
+                    <h1 id="userNumber">0</h1>
+                </div>
+                <script type="text/javascript" src="assets/javascript/game.js">
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
