@@ -56,7 +56,13 @@ body {
 #gameNumberBox {
     background-color: #FF6961;
     display: flex;
-    width: 150px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#userScoreBox {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -64,16 +70,11 @@ body {
 #userScore {
     background-color: #77DD77;
     width: 225px;
-    margin-left: 100px;
     text-align: center;
 }
 
 #scores {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
-
-/* #userScore h1 {
-    text-align: center;
-} */
