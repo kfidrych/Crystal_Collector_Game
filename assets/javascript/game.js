@@ -1,10 +1,3 @@
-// var randomGem = Math.floor(Math.random() * 12) + 1;
-// var gem1 = Math.floor(Math.random() * 12) + 1;
-// var gem2 = Math.floor(Math.random() * 12) + 1;
-// var gem3 = Math.floor(Math.random() * 12) + 1;
-// var gem4 = Math.floor(Math.random() * 12) + 1;
-// var number = 0;
-
 $(document).ready(function () {
     var randomNumber = Math.floor(Math.random() * 120) + 19;
     $("#gameNumber").text(randomNumber);
